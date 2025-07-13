@@ -1,0 +1,19 @@
+.card{
+    margin-top: 30px;
+    box-shadow: 0 0 10px green;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
+
+.container{
+
+}
+
+.mulcards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr ;
+    gap: 30px;
+    justify-content: center;
+}

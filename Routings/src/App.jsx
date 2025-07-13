@@ -10,6 +10,7 @@ import Photo from './Components/contentTypes/photo'
 import Video from './Components/contentTypes/video'
 import Audio from './Components/contentTypes/audio'
 import PageNotFound from './Components/PageNotfound/PageNotFound'
+import MobilesComponents from './Components/MobilesComponent'
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
        <Route path={'video'} element={<Video/>}></Route>
        <Route path={'audio'} element={<Audio/>}></Route>
       </Route>
-    <Route path={'/help'} element={<PageNotFound/>}></Route>
+      <Route path={'/mobiles'} element={<MobilesComponents/>}></Route>
+    <Route path={'*'} element={<PageNotFound/>}></Route>
     </Routes>
    
     </>
