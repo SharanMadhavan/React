@@ -11,6 +11,7 @@ import Video from './Components/contentTypes/video'
 import Audio from './Components/contentTypes/audio'
 import PageNotFound from './Components/PageNotfound/PageNotFound'
 import MobilesComponents from './Components/MobilesComponent'
+import A from './Components/ContectAPI/A'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
        <Route path={'audio'} element={<Audio/>}></Route>
       </Route>
       <Route path={'/mobiles'} element={<MobilesComponents/>}></Route>
+      <Route path={'/contextAPI'} element={<A />}></Route>
     <Route path={'*'} element={<PageNotFound/>}></Route>
     </Routes>
    
