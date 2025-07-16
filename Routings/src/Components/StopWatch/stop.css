@@ -1,0 +1,13 @@
+.stopwatch{
+    padding: 20px;
+    box-shadow: 0 0 10px grey;
+    margin:20px 250px;
+    height:100px;
+    display: flex;
+    flex-shrink: initial;
+    gap: 10px;
+    justify-content: center;
+}
+.items{
+    margin-top: 100px;
+}
