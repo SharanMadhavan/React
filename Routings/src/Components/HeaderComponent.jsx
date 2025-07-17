@@ -13,6 +13,7 @@ const HeaderComponent = () => {
         <Link to={'/mobiles'}>Mobiles</Link>
         <Link to ={'/contextAPI'}>ContextAPI</Link>
          <Link to ={'/formContext'}>Home ContextAPI</Link>
+          <Link to ={'/reducer'}>ReducerHook</Link>
          
 
 
