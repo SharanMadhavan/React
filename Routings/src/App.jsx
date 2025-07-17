@@ -14,6 +14,7 @@ import MobilesComponents from './Components/MobilesComponent'
 import A from './Components/ContectAPI/A'
 import ContextHome from './Components/ContextAPI2/ContextHome'
 import StopWatch from './Components/StopWatch/StopWatch'
+import ReducerHook from './Components/ReducerHook/ReducerHook'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route path={'/mobiles'} element={<MobilesComponents/>}></Route>
       <Route path={'/contextAPI'} element={<A />}></Route>
       <Route path={'/formContext'} element={<ContextHome/>}></Route>
+      <Route path={'/reducer'} element={<ReducerHook/>}></Route>
     <Route path={'*'} element={<PageNotFound/>}></Route>
     </Routes>
    
