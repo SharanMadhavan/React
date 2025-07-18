@@ -15,12 +15,14 @@ import A from './Components/ContectAPI/A'
 import ContextHome from './Components/ContextAPI2/ContextHome'
 import StopWatch from './Components/StopWatch/StopWatch'
 import ReducerHook from './Components/ReducerHook/ReducerHook'
+import City from './ReduxComponents/Reduxcomp/City'
 
 
 function App() {
   return (
     <>
      <HeaderComponent/>
+  
     <Routes>
       <Route path={'/home'} element={<HomeComponent/>}></Route>
       <Route path={'/contentype'} element={<ContactUs/>}>
@@ -33,6 +35,7 @@ function App() {
       <Route path={'/contextAPI'} element={<A />}></Route>
       <Route path={'/formContext'} element={<ContextHome/>}></Route>
       <Route path={'/reducer'} element={<ReducerHook/>}></Route>
+      <Route path={'/city'} element={<City/>}></Route>
     <Route path={'*'} element={<PageNotFound/>}></Route>
     </Routes>
    
