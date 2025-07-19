@@ -16,6 +16,7 @@ import ContextHome from './Components/ContextAPI2/ContextHome'
 import StopWatch from './Components/StopWatch/StopWatch'
 import ReducerHook from './Components/ReducerHook/ReducerHook'
 import City from './ReduxComponents/Reduxcomp/City'
+import FormPage from './ReduxComponents/Reduxcomp/FormPage'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Route path={'/formContext'} element={<ContextHome/>}></Route>
       <Route path={'/reducer'} element={<ReducerHook/>}></Route>
       <Route path={'/city'} element={<City/>}></Route>
+      <Route path={'/sform'} element={<FormPage/>}></Route>
     <Route path={'*'} element={<PageNotFound/>}></Route>
     </Routes>
    

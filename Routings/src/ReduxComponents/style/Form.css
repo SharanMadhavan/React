@@ -1,0 +1,10 @@
+.form-container{
+    box-shadow: 0 0 10px green;
+    padding: 20px;
+    margin-right: 600px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 5px;
+}
