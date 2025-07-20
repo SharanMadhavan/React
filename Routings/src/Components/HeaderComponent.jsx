@@ -16,6 +16,7 @@ const HeaderComponent = () => {
           <Link to ={'/reducer'}>ReducerHook</Link>
          <Link to={'/city'}>ReduxCity</Link>
         <Link to={'/sform'}>StudentForm</Link>
+        <Link to={'/lifecycle'}>component lifeCycle</Link>
 
         </div>
         </div>

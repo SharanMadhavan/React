@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -17,8 +16,8 @@ import StopWatch from './Components/StopWatch/StopWatch'
 import ReducerHook from './Components/ReducerHook/ReducerHook'
 import City from './ReduxComponents/Reduxcomp/City'
 import FormPage from './ReduxComponents/Reduxcomp/FormPage'
-
-
+import Image from './Components/LifeCycleOfComponent/Image'
+import Text from './Components/LifeCycleOfComponent/Text'
 function App() {
   return (
     <>
@@ -39,6 +38,8 @@ function App() {
       <Route path={'/city'} element={<City/>}></Route>
       <Route path={'/sform'} element={<FormPage/>}></Route>
     <Route path={'*'} element={<PageNotFound/>}></Route>
+    <Route path={'/lifecycle'} element={<Image/>}> </Route>
+    <Route path={'/text'} element={<Text/>}></Route>
     </Routes>
    
     </>
